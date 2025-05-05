@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="41C8ACBE-7079-10A2-5030-D59035BB1EA7" name="Tier_Impfungen">
+<createdBy>kadir</createdBy>
+<createdTime>2025-05-05 11:11:29 UTC</createdTime>
+<ownerDesignName>praktikum1</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TierID" id="F9177DA6-0607-CFF2-617B-FF24810208C8">
+<createdBy>kadir</createdBy>
+<createdTime>2025-05-05 11:12:15 UTC</createdTime>
+<ownerDesignName>praktikum1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Impfung" id="98381303-688C-3510-C1AE-FC1E66A8B871">
+<createdBy>kadir</createdBy>
+<createdTime>2025-05-05 11:12:15 UTC</createdTime>
+<ownerDesignName>praktikum1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E3C61478-4D2C-6EEA-DAA5-BA01D4C7CE47" name="Tier_Impfungen_PK">
+<createdBy>kadir</createdBy>
+<createdTime>2025-05-05 11:12:15 UTC</createdTime>
+<ownerDesignName>praktikum1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F9177DA6-0607-CFF2-617B-FF24810208C8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

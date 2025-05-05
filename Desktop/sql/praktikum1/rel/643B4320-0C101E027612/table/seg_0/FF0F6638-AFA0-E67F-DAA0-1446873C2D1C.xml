@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FF0F6638-AFA0-E67F-DAA0-1446873C2D1C" name="Termin">
+<createdBy>kadir</createdBy>
+<createdTime>2025-05-05 11:09:29 UTC</createdTime>
+<ownerDesignName>praktikum1</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TerminID" id="7BDE1036-101C-917D-DD8B-D96EC31E5906">
+<createdBy>kadir</createdBy>
+<createdTime>2025-05-05 11:11:21 UTC</createdTime>
+<ownerDesignName>praktikum1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Datum" id="25895F6B-F39B-5FFB-301F-5CBE6243D9D9">
+<createdBy>kadir</createdBy>
+<createdTime>2025-05-05 11:11:21 UTC</createdTime>
+<ownerDesignName>praktikum1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Uhrzeit" id="F6D73A78-CEFD-0C43-6FCB-AFC4E101E404">
+<createdBy>kadir</createdBy>
+<createdTime>2025-05-05 11:11:21 UTC</createdTime>
+<ownerDesignName>praktikum1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Raum" id="F10FEA5E-1F5A-A4B4-9014-405B5ED56EED">
+<createdBy>kadir</createdBy>
+<createdTime>2025-05-05 11:11:21 UTC</createdTime>
+<ownerDesignName>praktikum1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TierID" id="9B7D0A12-88EE-FDB2-943B-53F8CC9E480E">
+<createdBy>kadir</createdBy>
+<createdTime>2025-05-05 11:11:21 UTC</createdTime>
+<ownerDesignName>praktikum1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F1DA705D-8721-00AE-FCF5-111080C7F39D" referredColumn="095DB86F-05E1-1FED-0033-8177C7B843CC"/>
+</associations>
+</Column>
+<Column name="TierarztID" id="9F843443-B9A4-2EDF-5A86-A914D4157130">
+<createdBy>kadir</createdBy>
+<createdTime>2025-05-05 11:11:21 UTC</createdTime>
+<ownerDesignName>praktikum1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E22D2A9E-F5EA-22BC-C9EB-C835A400B799" referredColumn="2439EC32-063F-85E5-2AD8-F59AE13D471D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1DCE709F-9438-7A37-3400-723FC920DD77" name="Termin_PK">
+<createdBy>kadir</createdBy>
+<createdTime>2025-05-05 11:11:21 UTC</createdTime>
+<ownerDesignName>praktikum1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7BDE1036-101C-917D-DD8B-D96EC31E5906"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B342E6A8-9365-3292-7762-605FFCE8F4FF" name="Termin_Tier_FK">
+<createdBy>kadir</createdBy>
+<createdTime>2025-05-05 17:28:38 UTC</createdTime>
+<ownerDesignName>praktikum1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9B7D0A12-88EE-FDB2-943B-53F8CC9E480E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="430F9152-722F-2604-50BF-89189057DE4C" name="Termin_Tierarzt_FK">
+<createdBy>kadir</createdBy>
+<createdTime>2025-05-05 17:31:17 UTC</createdTime>
+<ownerDesignName>praktikum1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9F843443-B9A4-2EDF-5A86-A914D4157130"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

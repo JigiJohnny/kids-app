@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="804A7305-67E1-5125-1209-77720BF533C4" name="Besitzer">
+<createdBy>kadir</createdBy>
+<createdTime>2025-05-05 11:02:40 UTC</createdTime>
+<ownerDesignName>praktikum1</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="BesitzerID" id="3B3262B6-3DF2-D7E5-4699-E9A7453A03EB">
+<createdBy>kadir</createdBy>
+<createdTime>2025-05-05 11:04:37 UTC</createdTime>
+<ownerDesignName>praktikum1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="05AE8261-ECCB-6FAB-0F21-B45C6E9799D5">
+<createdBy>kadir</createdBy>
+<createdTime>2025-05-05 11:04:37 UTC</createdTime>
+<ownerDesignName>praktikum1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Adresse" id="8521F397-A6AC-67D5-AF53-FE6F31D99D9C">
+<createdBy>kadir</createdBy>
+<createdTime>2025-05-05 11:04:37 UTC</createdTime>
+<ownerDesignName>praktikum1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Telefonnummer" id="DD64929D-FA18-3FB3-3308-28D5F2A3DDA7">
+<createdBy>kadir</createdBy>
+<createdTime>2025-05-05 11:04:37 UTC</createdTime>
+<ownerDesignName>praktikum1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="E-Mail" id="FF1AB402-5DD8-BF3D-FA47-38497EDAAA5D">
+<createdBy>kadir</createdBy>
+<createdTime>2025-05-05 11:04:37 UTC</createdTime>
+<ownerDesignName>praktikum1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D40E0875-4B5A-4C8E-6BD3-A9A00EC9B389" name="Besitzer_PK">
+<createdBy>kadir</createdBy>
+<createdTime>2025-05-05 11:04:37 UTC</createdTime>
+<ownerDesignName>praktikum1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3B3262B6-3DF2-D7E5-4699-E9A7453A03EB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

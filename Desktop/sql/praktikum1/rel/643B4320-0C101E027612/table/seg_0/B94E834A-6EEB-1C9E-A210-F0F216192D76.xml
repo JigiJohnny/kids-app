@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B94E834A-6EEB-1C9E-A210-F0F216192D76" name="Tier">
+<createdBy>kadir</createdBy>
+<createdTime>2025-05-05 10:55:02 UTC</createdTime>
+<ownerDesignName>praktikum1</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TierID" id="095DB86F-05E1-1FED-0033-8177C7B843CC">
+<createdBy>kadir</createdBy>
+<createdTime>2025-05-05 10:57:21 UTC</createdTime>
+<ownerDesignName>praktikum1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="410CCB58-505E-B68C-1088-020AE2E32089">
+<createdBy>kadir</createdBy>
+<createdTime>2025-05-05 10:57:51 UTC</createdTime>
+<ownerDesignName>praktikum1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Art" id="2CA2ABDB-BECD-4858-8A01-0CF03BF24D67">
+<createdBy>kadir</createdBy>
+<createdTime>2025-05-05 10:59:01 UTC</createdTime>
+<ownerDesignName>praktikum1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Rasse" id="86A010F1-B682-D1C1-C94A-E8F16B38EB12">
+<createdBy>kadir</createdBy>
+<createdTime>2025-05-05 10:59:59 UTC</createdTime>
+<ownerDesignName>praktikum1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Geburtsdatum" id="4D6A570D-C1F3-AD6F-9929-DEE1FD3B13D7">
+<createdBy>kadir</createdBy>
+<createdTime>2025-05-05 11:02:27 UTC</createdTime>
+<ownerDesignName>praktikum1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6E82AE9B-B93E-9875-83F2-224CF6CB00C6" name="Tier_PK">
+<createdBy>kadir</createdBy>
+<createdTime>2025-05-05 10:57:21 UTC</createdTime>
+<ownerDesignName>praktikum1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="095DB86F-05E1-1FED-0033-8177C7B843CC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

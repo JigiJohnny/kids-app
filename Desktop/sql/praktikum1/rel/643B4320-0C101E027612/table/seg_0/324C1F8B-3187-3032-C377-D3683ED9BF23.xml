@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="324C1F8B-3187-3032-C377-D3683ED9BF23" name="Behandlung">
+<createdBy>kadir</createdBy>
+<createdTime>2025-05-05 11:04:41 UTC</createdTime>
+<ownerDesignName>praktikum1</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="BehandlungID" id="07C9DBC5-1C92-625F-8EAD-BB4AD65ED9AF">
+<createdBy>kadir</createdBy>
+<createdTime>2025-05-05 11:05:38 UTC</createdTime>
+<ownerDesignName>praktikum1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Beschreibung" id="079F7BF1-261B-776E-4589-FD800477BA7F">
+<createdBy>kadir</createdBy>
+<createdTime>2025-05-05 11:05:38 UTC</createdTime>
+<ownerDesignName>praktikum1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Kosten" id="FE26168D-35F7-2EB4-A07E-DBEB126A0003">
+<createdBy>kadir</createdBy>
+<createdTime>2025-05-05 11:05:38 UTC</createdTime>
+<ownerDesignName>praktikum1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="74BDC825-3E22-6EDA-9F29-1FFE98D148AB" name="Behandlung_PK">
+<createdBy>kadir</createdBy>
+<createdTime>2025-05-05 11:05:38 UTC</createdTime>
+<ownerDesignName>praktikum1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="07C9DBC5-1C92-625F-8EAD-BB4AD65ED9AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E22D2A9E-F5EA-22BC-C9EB-C835A400B799" containerWithKeyObject="FF0F6638-AFA0-E67F-DAA0-1446873C2D1C" localFKIndex="430F9152-722F-2604-50BF-89189057DE4C" name="Termin_Tierarzt_FK">
+<createdBy>kadir</createdBy>
+<createdTime>2025-05-05 17:31:17 UTC</createdTime>
+<ownerDesignName>praktikum1</ownerDesignName>
+<referredTableLongName>Tierarzt</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>E30C6470-F433-A5F9-CE88-96BBE673249D</referredTableID>
+<keyObject>DF700D14-960A-413C-EDDE-A53AA7291FE0</keyObject>
+<referredKeyID>DF700D14-960A-413C-EDDE-A53AA7291FE0</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>TierarztID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
