@@ -1,0 +1,13 @@
+# React Native
+node_modules/
+.expo/
+.expo-shared/
+npm-debug.log
+yarn-error.log
+
+# dotenv
+.env
+
+# macOS / Windows
+.DS_Store
+Thumbs.db

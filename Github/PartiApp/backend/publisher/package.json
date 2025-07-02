@@ -1,0 +1,15 @@
+{
+  "name": "backend-app",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "scraper.js",
+  "scripts": {
+    "scrape": "node scraper.js",
+    "publish": "node mqttPublisher.js",
+    "update": "node scraper.js && node mqttPublisher.js"
+  },
+  "dependencies": {
+    "mqtt": "^5.13.1",
+    "puppeteer": "^21.11.0"
+  }
+}
